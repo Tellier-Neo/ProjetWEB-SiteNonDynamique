@@ -4,7 +4,12 @@ body {
 }
 
 .nav_bar {
-    height: 10%;
+    height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color: #0455BF;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    padding-top: 50px;
 }
