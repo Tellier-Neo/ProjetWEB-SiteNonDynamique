@@ -12,6 +12,6 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    padding-top: 50px;
+    justify-content: end;
+    align-items: center;
 }
-
