@@ -1,6 +1,11 @@
 body {
-    background-color: rgb(247, 245, 243);
-    font-family:Georgia, 'Times New Roman', Times, serif
+    background-position: absolute;
+    background-color: #3B3936;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
 }
 
 a{
@@ -10,212 +15,146 @@ a{
 
 
 .nav_bar {
+    color: white;
     min-height: 100px;
     height: fit-content;
     width: 100%;
-    background-color: #0455BF;
+    background-color: #BD2A2E;
     font-size: x-large;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: end;
-    align-items: center;
+    align-items:center;
 }
+
+.Main_Menu:hover {
+    color: black;
+}
+.About:hover {
+    color: black;
+}
+.Contact:hover {
+    color: black;
+}
+.Mosaic:hover {
+    color: black;
+}
+.Resume:hover {
+    color: black;
+}
+.UnknownName1:hover {
+    color: black;
+}
+.UnknownName2:hover {
+    color: black;
+}
+.UnknownName3:hover {
+    color: black;
+}
+
 .Main_Menu {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
     margin-top: 0px;
     padding-bottom: 1.5%;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
+    transition: color, 0.5s;
     text-decoration: unset;
-
 }
 
 
 
 .About {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
     margin-top: 0px;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
-}
-.Main_Menu:hover{
-    border-color: black;
-}
-.About:hover{
-    border-color: black;
-}
-.Resume:hover{
-    border-color: black;
-}
-.Contact:hover{
-    border-color: black;
-}
-.Mosaic:hover{
-    border-color: black;
+    transition: color, 0.5s;
 }
 
-.UnknownName3:hover{
-    border-color: black;
-}
-.UnknownName2:hover{
-    border-color: black;
-}
-.UnknownName1:hover{
-    border-color: black;
-}
 .Resume {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
+    
     margin-top: 0px;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
+    
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
+    transition: color, 0.5s;
 }
 
 .Contact {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
+    
     margin-top: 0px;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
+    
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
+    transition: color, 0.5s;
 }
 
 .Mosaic {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
+   
     margin-top: 0px;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
+    
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
+    transition: color, 0.5s;
 }
 
 .UnknownName1 {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
+    
     margin-top: 0px;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
+    
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
+    transition: color, 0.5s;
 }
 
 .UnknownName2 {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
+    
     margin-top: 0px;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
+    
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
+    transition: color, 0.5s;
 }
 
 .UnknownName3 {
     padding-top: 1.5%;
-    border-top: 15px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
+    
     margin-top: 0px;
     padding-right: 15px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-top-width: 20px;
+    
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
     text-align: justify;
-    transition: border-color, 1s;
+    transition: color, 0.5s;
 }
 
 .content {
@@ -224,57 +163,79 @@ a{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-top: 0px;
-    border-bottom: 0px;
+    
 }
 
 .Section_1_index {
     margin: 5%;
+    margin-bottom: 2%;
     padding: 2%;
     box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(240, 240, 240, 0.75);
+    background-color: #F2F2F2;
 }
 
 .Section_2_index {
     margin: 5%;
+    margin-bottom: 2%;
     padding: 2%;
-    box-shadow: -11px 11px 11px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -11px 11px 11px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -11px 11px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(240, 240, 240, 0.75);
+    background-color: #F2F2F2;
 }
 
 .Section_3_index {
     margin: 5%;
+    margin-bottom: 10%;
     padding: 2%;
     box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    background-color: #F2F2F2;
 }
 
 .page_head {
     margin-left: 5%;
     margin-bottom: 2%;
-
 }
 .title {
     font-size: xx-large;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: white;
+    margin: 10px;
 }
 .description {
     font-size: medium;
     font-style: italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(100, 100, 100);
+    color: white;
+    margin: 10px;
 }
 
+
+.credits {
+    color: #B2BEBF;
+    padding-right: 10px;
+}
 
 footer {
     width: 100%;
-    background-color: #5881A6;
+    background-color: #BD2A2E;
+    text-align: right;
 }
+
+.separator {
+    height: 1px;
+    width: 98%;
+    background-color: white;
+    box-shadow: -1px 1px 38px 0px rgba(255,255,255,1);
+    -webkit-box-shadow: -1px 1px 38px 0px rgba(255,255,255,1);
+    -moz-box-shadow: -1px 1px 38px 0px rgba(255,255,255,1);
+}
+
+#background-music {
+    display: none;
+  }
