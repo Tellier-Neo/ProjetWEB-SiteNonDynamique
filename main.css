@@ -3,6 +3,11 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
+a{
+    text-decoration: none;
+    color: unset;
+}
+
 
 .nav_bar {
     min-height: 100px;
@@ -36,6 +41,8 @@ body {
     text-align: center;
     text-align: justify;
     transition: border-color, 1s;
+    text-decoration: unset;
+
 }
 
 
@@ -209,4 +216,18 @@ body {
     text-align: center;
     text-align: justify;
     transition: border-color, 1s;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Section_1_index {
+    margin: 5%;
+    padding: 2%;
+    box-shadow: 41px 31px 14px -7px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 41px 31px 14px -7px rgba(0,0,0,0.72);
+    -moz-box-shadow: 41px 31px 14px -7px rgba(0,0,0,0.72);
 }
