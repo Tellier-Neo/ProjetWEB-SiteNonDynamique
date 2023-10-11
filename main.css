@@ -3,15 +3,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.global_content {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s, transform 1s;
-}
-.global_content.appear{
-    opacity: 1;
-    transform: translateY(0);
-}
 
 .nav_bar {
     height: 100px;
@@ -23,3 +14,4 @@ body {
     flex-wrap: wrap-reverse;
     padding-top: 50px;
 }
+
