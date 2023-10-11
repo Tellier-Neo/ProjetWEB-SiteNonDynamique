@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(247, 245, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav_bar {
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
