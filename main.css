@@ -227,7 +227,23 @@ a{
 .Section_1_index {
     margin: 5%;
     padding: 2%;
-    box-shadow: 41px 31px 14px -7px rgba(0,0,0,0.72);
-    -webkit-box-shadow: 41px 31px 14px -7px rgba(0,0,0,0.72);
-    -moz-box-shadow: 41px 31px 14px -7px rgba(0,0,0,0.72);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+}
+
+.Section_2_index {
+    margin: 5%;
+    padding: 2%;
+    box-shadow: -11px 11px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -11px 11px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -11px 11px 11px 0px rgba(0,0,0,0.75);
+}
+
+.Section_3_index {
+    margin: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.75);
 }
