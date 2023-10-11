@@ -1,17 +1,212 @@
 body {
     background-color: rgb(247, 245, 243);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 
 .nav_bar {
-    height: 100px;
+    min-height: 100px;
+    height: fit-content;
     width: 100%;
     background-color: #0455BF;
-    font-size: 25px;
+    font-size: x-large;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: end;
     align-items: center;
+}
+.Main_Menu {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-bottom: 1.5%;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
+}
+
+
+
+.About {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
+}
+.Main_Menu:hover{
+    border-color: black;
+}
+.About:hover{
+    border-color: black;
+}
+.Resume:hover{
+    border-color: black;
+}
+.Contact:hover{
+    border-color: black;
+}
+.Mosaic:hover{
+    border-color: black;
+}
+
+.UnknownName3:hover{
+    border-color: black;
+}
+.UnknownName2:hover{
+    border-color: black;
+}
+.UnknownName1:hover{
+    border-color: black;
+}
+.Resume {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
+}
+
+.Contact {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
+}
+
+.Mosaic {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
+}
+
+.UnknownName1 {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
+}
+
+.UnknownName2 {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
+}
+
+.UnknownName3 {
+    padding-top: 1.5%;
+    border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+    margin-top: 0px;
+    padding-right: 15px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    text-align: center;
+    text-align: justify;
+    transition: border-color, 1s;
 }
