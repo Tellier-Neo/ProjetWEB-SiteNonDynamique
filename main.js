@@ -1,11 +1,7 @@
-var bop = document.getElementById("bop");
-var audio = new Audio("bop.mp3");
-
-bop.addEventListener("mouseenter", function() {
-  audio.play();
+document.addEventListener("DOMContentLoaded", function () {
+  // Ce code sera exécuté une fois la page complètement chargée
+  console.log("La page est chargée !");
 });
-
-
 
 function changerStyle() {
   var stylesheet = document.getElementById('stylesheet');
