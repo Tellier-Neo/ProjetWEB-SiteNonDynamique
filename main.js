@@ -12,5 +12,21 @@ function changerStyle() {
   }
 }
 
+window.addEventListener('load', function () {
+  var styleSheets = document.styleSheets;
+  for (var i = 0; i < styleSheets.length; i++) {
+    console.log('Feuille de style CSS chargée : ' + styleSheets[i].href);
+  }
+  // Vous pouvez ajouter ici d'autres vérifications
+});
+
+
+window.addEventListener('load', function () {
+  var scripts = document.querySelectorAll('script');
+  for (var i = 0; i < scripts.length; i++) {
+    console.log('Fichier JavaScript chargé : ' + scripts[i].src);
+  }
+  // Vous pouvez ajouter ici d'autres vérifications
+});
 
 
