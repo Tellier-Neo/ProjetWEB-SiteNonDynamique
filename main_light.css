@@ -1,12 +1,11 @@
 body {
-    background-position: absolute;
-    background-color: #e2e2e2;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     margin: 0;
     padding: 0;
     transition: color, background-color, 1s;
-
+    background-color: rgb(224, 224, 224);
+    transition: background-color, background-image, 3s;
 }
 
 a {
@@ -161,10 +160,8 @@ a {
 
 .UnknownName3 {
     padding-top: 1.5%;
-
     margin-top: 0px;
     padding-right: 15px;
-
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
@@ -181,37 +178,14 @@ a {
 
 }
 
-.Section_1_index {
+.Section_index {
     margin: 5%;
-    margin-bottom: 2%;
     padding: 2%;
-    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 11px 0px rgba(240, 240, 240, 0.75);
-    background-color: #e7e7e7;
-    color: rgb(31, 31, 31);
-    transition: color, background-color, 1s;
-}
-
-.Section_2_index {
-    margin: 5%;
-    margin-bottom: 2%;
-    padding: 2%;
-    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 11px 0px rgba(240, 240, 240, 0.75);
-    background-color: #e7e7e7;
-    color: rgb(31, 31, 31);
-    transition: color, background-color, 1s;
-}
-
-.Section_3_index {
-    margin: 5%;
-    margin-bottom: 10%;
-    padding: 2%;
-    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 8px 32px 0 rgba(0, 247, 255, 0.568);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     background-color: #e7e7e7;
     color: rgb(31, 31, 31);
     transition: color, background-color, 1s;
