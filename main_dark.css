@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     transition:background-color, 1s;
+    max-height: 90%;
 }
 
 a{
@@ -34,27 +35,35 @@ a{
 
 .Main_Menu:hover {
     color: black;
+    transform: rotate(5deg);
 }
 .About:hover {
     color: black;
+    transform: rotate(5deg);
 }
 .Contact:hover {
     color: black;
+    transform: rotate(5deg);
 }
 .Mosaic:hover {
     color: black;
+    transform: rotate(5deg);
 }
 .Resume:hover {
     color: black;
+    transform: rotate(5deg);
 }
 .UnknownName1:hover {
     color: black;
+    transform: rotate(5deg);
 }
 .UnknownName2:hover {
     color: black;
+    transform: rotate(5deg);
 }
 .UnknownName3:hover {
     color: black;
+    transform: rotate(5deg);
 }
 
 .Main_Menu {
@@ -441,5 +450,5 @@ transition: color,background-color, 1s;
     top: 10px;
     right: 10px;
     transition: color,background-color, 1s;
-
 }
+

@@ -11,3 +11,6 @@ function changerStyle() {
       stylesheet.setAttribute('href', 'main_dark.css'); // Remplacez 'style1.css' par le nom de votre première feuille de style.
   }
 }
+
+
+
