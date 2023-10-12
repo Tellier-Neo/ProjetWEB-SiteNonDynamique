@@ -234,6 +234,10 @@ a {
     transition: color, background-color, 1s;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .description {
     font-size: medium;
     font-style: italic;
