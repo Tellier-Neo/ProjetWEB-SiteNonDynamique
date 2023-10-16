@@ -1,4 +1,6 @@
 body {
+    background-image: url(assets/images/background_dark.png);
+    background-size: auto;
     font-family:Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     margin: 0;
@@ -6,7 +8,7 @@ body {
     transition:background-color, 1s;
     max-height: 90%;
     background-color: #272727;
-    transition: background-color, background-image, 3s;
+    transition: background-color, background-image, 500ms;
     
 }
 
@@ -182,9 +184,9 @@ a{
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    background-color: #494949;
+    background-color: rgba(255, 255, 255, 0.18 );
     color: rgb(255, 255, 255);
-    transition: color, background-color, 1s;
+    transition: 1s;
 }
 .page_head {
     margin-left: 5%;

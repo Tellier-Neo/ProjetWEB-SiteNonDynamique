@@ -1,11 +1,12 @@
 body {
+    background-image: url(assets/images/background_light.png);
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     margin: 0;
     padding: 0;
     transition: color, background-color, 1s;
     background-color: rgb(224, 224, 224);
-    transition: background-color, background-image, 3s;
+    transition: background-color, background-image, 500ms;
 }
 
 a {
@@ -186,9 +187,9 @@ a {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    background-color: #e7e7e7;
+    background-color: rgba(230, 230, 230, 0.8);
     color: rgb(31, 31, 31);
-    transition: color, background-color, 1s;
+    transition: 1s;
 }
 
 .page_head {
