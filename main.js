@@ -29,13 +29,5 @@ window.addEventListener('load', function () {
   // Vous pouvez ajouter ici d'autres vérifications
 });
 
-var audio = document.getElementById("background-music");
-  var stopButton = document.getElementById("stop-music-button");
-
-  // Ajoutez un gestionnaire d'événement au bouton pour arrêter la musique
-  stopButton.addEventListener("click", function() {
-    audio.pause(); // Arrête la lecture de la musique
-  });
-
 
 
