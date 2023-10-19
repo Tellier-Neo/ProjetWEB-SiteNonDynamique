@@ -470,6 +470,19 @@ footer {
 
 .conteneur_class_1 {
     display: flex;
-    flex-direction: column;
-    justify-content: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.text_section {
+    text-align: left;
+    padding-left: 2%;
+}
+
+.image_index {
+    height: 5%;
+    width: 5%;
 }
