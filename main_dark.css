@@ -168,6 +168,7 @@ a{
 }
 
 .content {
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -452,4 +453,43 @@ transition: color,background-color, 1s;
 .image_index {
     height: 5%;
     width: 5%;
+}
+
+
+.conteneur_class_2 {
+    padding-top: 1%;
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+    padding-bottom: 1%;
+    
+}
+
+
+.image_mosaique {
+    height: 15%;
+    width: 15%;
+    margin: 5px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 3px solid rgba(209, 213, 219, 0.3);
+    transition: 1s;
+}
+
+.image_mosaique:hover {
+    transform: scale(1.5);
+    z-index: 3;
+    margin-left: 50px;
+    margin-right: 50px;
 }
