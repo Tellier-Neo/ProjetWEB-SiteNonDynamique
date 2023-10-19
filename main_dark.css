@@ -168,7 +168,6 @@ a{
 }
 
 .content {
-    text-align: center;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -492,4 +491,21 @@ transition: color,background-color, 1s;
     z-index: 3;
     margin-left: 50px;
     margin-right: 50px;
+    cursor: pointer;
 }
+
+.form_mail {
+    align-self: center;
+    background-color: #BD2A2E;
+    color: #000000;
+    width: 20%;
+    height: 20%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+
+

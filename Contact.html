@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact | Tellier Néo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link id="stylesheet" rel='stylesheet' href='main_dark.css'>
+    <script src='main.js'></script>
+    <audio id="background-music" autoplay loop>
+        <source src="backgrounds.mp3" type="audio/mpeg">
+    </audio>
+</head>
+
+<body>
+    
+    <div class="global_content">
+        <div class="page_head">
+            <div class="title"><strong>Contact</strong></div>
+            <div class="description">Ici vous pourrez me contacter directement par mail ou sur mes réseaux sociaux</div>
+            <button class="theme_change_button" onclick="changerStyle()">Changer le thème de la page</button>
+        </div>
+        <div class="nav_bar">
+            <div class="Main_Menu"><a href="index.html">Menu Principal</a></div>
+            <div class="About"><a href="About.html">A Propos</a></div>
+            <div class="Resume"><a href="Resume_FR.html">Curiculum Vitea</a></div>
+            <div class="Contact"><a href="Contact.html">Contact</a></div>
+            <div class="Mosaic"><a href="images.html">Galerie d'image</a></div>
+            <div class="UnknownName1"><a href="Resume_FR.html">Inconnu 1</a></div>
+            <div class="UnknownName2"><a href="Resume_FR.html">Inconnu 2</a></div>
+            <div class="UnknownName3"><a href="Resume_FR.html">Inconnu 3</a></div>
+        </div>
+        <div class="content">
+
+            <form action="https://formspree.io/votre-email" method="POST" class="form_mail">
+                <label class="nom" for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+        
+                <label class = "mail" for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label class="message" for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="credits">
+        <div class="Author_name">Tellier Néo - BTS CIEL1</div>
+        <div class="Year_info">October 2023</div>
+        <div class="copyright">All Rights Reserved</div>
+    </div>
+</footer>
+
+</html>
