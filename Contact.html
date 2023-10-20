@@ -11,6 +11,18 @@
     <audio id="background-music" autoplay loop>
         <source src="backgrounds.mp3" type="audio/mpeg">
     </audio>
+    <style>
+        form {
+            margin: 20px;
+        }
+
+        input,
+        textarea,
+        button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,17 +44,16 @@
             <div class="UnknownName3"><a href="Resume_FR.html">Inconnu 3</a></div>
         </div>
         <div class="content">
-            <div class="info_bulle">
-
-            </div>
-            <form action="https://formspree.io/f/xwkdyero" method="POST" class="form_mail">
-                <input type="text" id="nom" name="nom" required class="form_mail_case" placeholder="Nom"><br><br>
-                <input type="email" id="email" name="email" required class="form_mail_case" placeholder="Email"><br><br>
-                <textarea id="message" name="message" rows="4" required class="form_mail_text" placeholder="Message"></textarea><br><br>
-                
-                <button type="submit" class="submit_bouton">Envoyer</button>
+            <form action="https://formspree.io/your-email" method="POST">
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                <input type="email" id="email" name="_replyto" placeholder="Votre e-mail" required>
+                <textarea id="contenu" name="contenu" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
             </form>
+
         </div>
+
+    </div>
     </div>
 </body>
 
