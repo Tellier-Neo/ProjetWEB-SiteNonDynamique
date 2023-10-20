@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    
+
     <div class="global_content">
         <div class="page_head">
             <div class="title"><strong>Contact</strong></div>
@@ -32,17 +32,15 @@
             <div class="UnknownName3"><a href="Resume_FR.html">Inconnu 3</a></div>
         </div>
         <div class="content">
+            <div class="info_bulle">
+
+            </div>
             <form action="https://formspree.io/f/xwkdyero" method="POST" class="form_mail">
-                <label  for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" required class="form_mail_case"><br><br>
-        
-                <label  for="email">Email :</label>
-                <input type="email" id="email" name="email" required class="form_mail_case"><br><br>
-        
-                <label  for="message">Message :</label><br>
-                <textarea id="message" name="message" rows="4" required class="form_mail_text"></textarea><br><br>
-        
-                <input type="submit" value="Envoyer">
+                <input type="text" id="nom" name="nom" required class="form_mail_case" placeholder="Nom"><br><br>
+                <input type="email" id="email" name="email" required class="form_mail_case" placeholder="Email"><br><br>
+                <textarea id="message" name="message" rows="4" required class="form_mail_text" placeholder="Message"></textarea><br><br>
+                
+                <button type="submit" class="submit_bouton">Envoyer</button>
             </form>
         </div>
     </div>
