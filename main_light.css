@@ -552,3 +552,20 @@ footer {
     margin-right: 50px;
     cursor: pointer;
 }
+
+.form_mail {
+    align-self: center;
+    backdrop-filter: blur(6px) saturate(200%);
+    -webkit-backdrop-filter: blur(6px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    color: #000000;
+    width: 20%;
+    height: 20%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: 1s;
+}

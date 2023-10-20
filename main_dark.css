@@ -495,16 +495,39 @@ transition: color,background-color, 1s;
 }
 
 .form_mail {
+    
     align-self: center;
-    background-color: #BD2A2E;
-    color: #000000;
-    width: 20%;
-    height: 20%;
+    backdrop-filter: blur(6px) saturate(200%);
+    -webkit-backdrop-filter: blur(6px) saturate(200%);
+    background-color: rgba(189, 42, 46, 0.74);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: #ffffff;
+    width: 40%;
+    height: 100%;
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-    
+    transition: 1s;
+    font-size: 15px;
+}
+
+.form_mail_case {
+    width: 80%;
+    height: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.75);
+}
+
+.form_mail_text {
+    width: 80%;
+    height: 250px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.75);
+    background-color: #ffffff;
 }
 
 
