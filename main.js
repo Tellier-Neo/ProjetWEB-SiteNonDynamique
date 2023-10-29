@@ -30,4 +30,17 @@ window.addEventListener('load', function () {
 });
 
 
+const container = document.querySelector('.container');
+const body = document.body;
+
+const submitButton = document.getElementById('submit-button');
+const contactForm = document.getElementById('contact-form');
+
+submitButton.addEventListener('click', () => {
+  submitButton.textContent = 'Envoi en cours...';
+  submitButton.disabled = true;
+  contactForm.submit();
+}); 
+
+
 
