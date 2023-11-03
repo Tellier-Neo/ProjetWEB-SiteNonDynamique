@@ -58,18 +58,18 @@ a {
     transform: rotate(5deg);
 }
 
-.UnknownName1:hover {
+.Rallye:hover {
     color: rgb(140, 232, 255);
     transform: rotate(5deg);
 }
 
-.UnknownName2:hover {
+.Mans:hover {
     color: rgb(140, 232, 255);
     transform: rotate(5deg);
 }
 
 
-.UnknownName3:hover {
+.Nascar:hover {
     color: rgb(140, 232, 255);
     transform: rotate(5deg);
 }
@@ -133,12 +133,10 @@ a {
     transition: color, 0.5s;
 }
 
-.UnknownName1 {
+.Rallye {
     padding-top: 1.5%;
-
     margin-top: 0px;
     padding-right: 15px;
-
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
@@ -146,12 +144,10 @@ a {
     transition: color, 0.5s;
 }
 
-.UnknownName2 {
+.Mans {
     padding-top: 1.5%;
-
     margin-top: 0px;
     padding-right: 15px;
-
     margin-right: 0px;
     margin-bottom: auto;
     text-align: center;
@@ -159,7 +155,7 @@ a {
     transition: color, 0.5s;
 }
 
-.UnknownName3 {
+.Nascar {
     padding-top: 1.5%;
     margin-top: 0px;
     padding-right: 15px;
@@ -266,7 +262,7 @@ footer {
 
 }
 
-.container {
+.container_cv {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -563,6 +559,7 @@ footer {
     padding: 20px;
     max-width: 400px;
     text-align: center;
+    justify-self: center;
 
 
 }

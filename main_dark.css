@@ -65,17 +65,17 @@ a {
     transform: rotate(5deg);
 }
 
-.UnknownName1:hover {
+.Rallye:hover {
     color: black;
     transform: rotate(5deg);
 }
 
-.UnknownName2:hover {
+.Mans:hover {
     color: black;
     transform: rotate(5deg);
 }
 
-.UnknownName3:hover {
+.Nascar:hover {
     color: black;
     transform: rotate(5deg);
 }
@@ -141,7 +141,7 @@ a {
     transition: color, 1s;
 }
 
-.UnknownName1 {
+.Rallye {
     padding-top: 1.5%;
     margin-top: 0px;
     padding-right: 15px;
@@ -152,7 +152,7 @@ a {
     transition: color, 1s;
 }
 
-.UnknownName2 {
+.Mans {
     padding-top: 1.5%;
     margin-top: 0px;
     padding-right: 15px;
@@ -163,7 +163,7 @@ a {
     transition: color, 1s;
 }
 
-.UnknownName3 {
+.Nascar {
     padding-top: 1.5%;
     margin-top: 0px;
     padding-right: 15px;
@@ -262,7 +262,7 @@ footer {
 
 }
 
-.container {
+.container_cv {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -520,13 +520,15 @@ footer {
 .container {
     background: rgba(255, 255, 255, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.2);
-    align-self: center;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 20px;
     max-width: 400px;
     text-align: center;
-
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -570,3 +572,4 @@ textarea {
 .form_button:hover {
     transform: scale(1.05);
 }
+
