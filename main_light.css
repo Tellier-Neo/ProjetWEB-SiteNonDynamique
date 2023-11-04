@@ -604,3 +604,57 @@ textarea {
 .form_button:hover {
     transform: scale(1.05);
 }
+
+
+.rallye_bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 2%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(235, 235, 235, 0.75);
+    border-radius: 12px;
+    border: 3px solid rgba(146, 149, 153, 0.3);
+    transition: 1s;
+    transition: 1s;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: black;
+}
+
+
+.rallye_bloc h2 {
+    margin: 1%;
+
+}
+
+.rallye_bloc h3 {
+    margin: 1%;
+
+}
+
+.rallye_sousbloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    transition: 1s;
+    margin-bottom: 2%;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+#image_rallye {
+    max-width: 200px;
+    max-height: 150px;
+    margin-right: 2%;
+}
+
+#image_rallye_2 {
+    max-height: 200px;
+    max-width: 150px;
+    margin-right: 2%;
+}
