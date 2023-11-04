@@ -624,3 +624,56 @@ textarea {
     max-width: 150px;
     margin-right: 2%;
 }
+
+.nascar_bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 2%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(153, 153, 153, 0.75);
+    border-radius: 12px;
+    border: 3px solid rgba(106, 108, 112, 0.3);
+    transition: 1s;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+
+}
+
+.nascar_bloc h2 {
+    margin: 1%;
+
+}
+
+.nascar_bloc h3 {
+    margin: 1%;
+
+}
+
+.nascar_sousbloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    transition: 1s;
+    margin-bottom: 2%;
+    color: white;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+#image_nascar {
+    max-width: 200px;
+    max-height: 150px;
+    margin-right: 2%;
+
+}
+
+#image_logo_nascar {
+    max-width: 250px;
+    max-height: 220px;
+    margin-right: 2%;
+}
