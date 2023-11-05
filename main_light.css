@@ -713,3 +713,87 @@ textarea {
     max-height: 220px;
     margin-right: 2%;
 }
+
+.youtubeplayer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(153, 153, 153, 0.75);
+    border-radius: 12px;
+    border: 3px solid rgba(106, 108, 112, 0.3);
+    transition: 1s;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    padding: 1%;
+}
+
+#media {
+    margin: 5px;
+    max-width: 450px;
+    max-height: 270px;
+}
+
+table {
+    margin-top: 2%;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+caption {
+    margin-bottom: 1%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    font-weight: bold;
+    background-color: #414141;
+    text-align: center;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+
+.mans_sousbloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    transition: 1s;
+    margin-bottom: 2%;
+    color: white;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.mans_bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 2%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(153, 153, 153, 0.75);
+    border-radius: 12px;
+    border: 3px solid rgba(106, 108, 112, 0.3);
+    transition: 1s;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+}
