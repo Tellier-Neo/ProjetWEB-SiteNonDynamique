@@ -761,3 +761,12 @@ th {
     margin-bottom: 2%;
     color: white;
 }
+
+#image_mans {
+    max-width: 200px;
+    max-height: 150px;
+    margin-right: 2%;
+
+}
+
+/* Commentaire de fin de V1 */

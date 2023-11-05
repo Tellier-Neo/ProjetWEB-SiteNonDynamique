@@ -41,6 +41,6 @@ submitButton.addEventListener('click', () => {
   submitButton.disabled = true;
   contactForm.submit();
 }); 
-
+// Commentaire de fin de V1
 
 

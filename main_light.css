@@ -724,13 +724,13 @@ textarea {
     align-items: center;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(153, 153, 153, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
-    border: 3px solid rgba(106, 108, 112, 0.3);
+    border: 3px solid rgba(196, 199, 207, 0.3);
     transition: 1s;
     margin-top: 2%;
     margin-bottom: 2%;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1%;
 }
 
@@ -776,7 +776,7 @@ th {
     text-align: left;
     transition: 1s;
     margin-bottom: 2%;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 1%;
     font-size: 20px;
 }
@@ -789,11 +789,20 @@ th {
     padding: 2%;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(153, 153, 153, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
-    border: 3px solid rgba(106, 108, 112, 0.3);
+    border: 3px solid rgba(196, 199, 207, 0.3);
     transition: 1s;
     margin-top: 2%;
     margin-bottom: 2%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
+#image_mans {
+    max-width: 200px;
+    max-height: 150px;
+    margin-right: 2%;
+
+}
+
+/* Commentaire de fin de V1 */
